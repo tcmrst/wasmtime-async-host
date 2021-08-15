@@ -1,0 +1,13 @@
+[package]
+name = "wasmtime-async-host"
+version = "0.1.0"
+authors = ["tcmrst <tcmrst@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.40"
+futures = "0.3.16"
+wasmtime = "0.29.0"
+tokio = { version = "1", features = ["full"] }
